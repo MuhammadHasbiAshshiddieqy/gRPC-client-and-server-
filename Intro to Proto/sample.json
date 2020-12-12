@@ -1,17 +1,19 @@
 {
   "total": 2,
   "anggota": [{
-      "nama": "Hasbi",
-      "usia": 23,
-      "data_tambahan": {
-          "hobi": "Basket",
-          "hidup": true
-    },
-    {
-        "nama": "Hasbi",
-        "usia": 23,
-        "data_tambahan": {
-            "hobi": "Basket",
-            "hidup": true
-    }]
+    "nama": "Hasbi",
+    "usia": 23,
+    "data_tambahan": {
+      "hobi": "Basket",
+      "hidup": true
+    }
+  },
+  {
+    "nama": "Hasbi",
+    "usia": 23,
+    "data_tambahan": {
+      "hobi": "Basket",
+      "hidup": true
+    }
+  }]
 }
