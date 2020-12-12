@@ -1,0 +1,12 @@
+Cara generate file proto menjadi protobuf golang :
+
+protoc --go_out=. *.proto
+
+Bila terjadi error, maka lakukan :
+
+export GO_PATH=~/go
+export PATH=$PATH:/$GO_PATH/bin
+
+Sumber : https://stackoverflow.com/questions/28099004/unable-to-build-protobuf-to-go-endpoint
+
+Instalasi protoc golang : https://grpc.io/docs/languages/go/quickstart/

@@ -1,0 +1,21 @@
+syntax="proto3";
+
+package pb;
+option go_package = ".;pb";
+
+message DataAnggota {
+  string nama = 1 [json_name="nama"];
+  int64 usia = 2 [json_name="usia"];
+
+  message DATATAMBAHAN{
+    string hobi = 1;
+    bool hidup = 2;
+  }
+
+  DATATAMBAHAN data_tambahan = 3 [json_name="data_tambahan"];
+}
+
+message Kelompok {
+  int64 total = 1 [json_name="total"];
+  DataAnggota anggota = 2 [json_name="DataAnggota"];
+}
